@@ -1,0 +1,33 @@
+
+
+//Recorrer en serpiente
+public String obtenerContenidoSerpiente(char[] serp){
+
+	String insectos = "";
+	for(int i = 0; i < serp.length; i++){
+	
+		if(i%2 == 0){
+	
+		for(int j = 0; j < serp[i].length; j++){
+		
+			insectos += ""+serp[i][j];
+			}
+			}else{
+			
+			for(int j = serp[i].length -1; j >= 0; j--){
+			
+			insectos += ""+serp[i][j];
+		}
+	}
+	
+	//Hacienda
+	
+	public char calcularLoteConMayorProduccion(double[][] hacienda){
+	
+		for(int i = 0; i < hacienda.length
+	
+	
+		
+		
+		
+		
